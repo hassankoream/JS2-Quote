@@ -1,0 +1,64 @@
+/*  start global */
+:root{
+ --color-white: #fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+
+}
+body{
+   margin: 0; 
+}
+a, span{
+    display: inline-block;
+}
+
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+/*  end global */
+
+/* start header */
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/billo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+ font-family: Impact, Times;
+ font-size: 4rem;
+}
+header p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.btn-main{
+    /* background-color: gray; */
+    border: 1px solid gray;
+    color: #fff;
+}
+.btn-main:focus{
+    box-shadow: none;
+}
+.btn-main:hover {
+    color: #000;
+    background-color: #31d2f2;
+    border-color: #25cff2;
+    
+}
+
+
+/* end header */
+
+
+
