@@ -11,7 +11,7 @@ html{
 }
 body{
    margin: 0; 
- background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/billo.jpg);
+
 }
 a, span{
     display: inline-block;
@@ -31,9 +31,7 @@ ul{
 
 /* start header */
 header{
-/*     background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/billo.jpg); */
-    background-size: cover;
-    background-position: center;
+  background: #0b2c28;
 }
 header h1{
  font-family: Impact, Times;
