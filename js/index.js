@@ -94,7 +94,7 @@ for (var x = 0; x < quoteList.length; x++) {
     for (var y = 0; y < z; y++) {
         // console.log(quoteList[x].quotes[y]);
         myQuote = `
-                <p>"${quoteList[x].quotes[y]}"<br>--${quoteList[x].name}</p>
+                <p class="text-capitalize fs-5">"${quoteList[x].quotes[y]}"<br>--${quoteList[x].name}</p>
             
     `
         quoteContainer.push(myQuote);
