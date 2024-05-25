@@ -31,7 +31,9 @@ ul{
 
 /* start header */
 header{
-  background: #0b2c28;
+     background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/billo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 header h1{
  font-family: Impact, Times;
